@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/desain">
+        <TextView
+            android:id="@+id/lgn"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="100dp"
+            android:text="Login"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="356dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/desain2" />
+
+    <RelativeLayout
+        android:layout_width="249dp"
+        android:background="@drawable/desain3"
+        android:layout_height="69dp"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutlog"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginTop="170dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Username"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutpass"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/miring"
+        android:text="Login" />
+
+</LinearLayout>
